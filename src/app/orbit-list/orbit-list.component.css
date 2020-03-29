@@ -1,6 +1,6 @@
 .sortable {
     cursor: pointer;
-    color: #dd5;
+    color: rgb(221, 189, 85);
 }
 
 .warning {
@@ -8,7 +8,7 @@
 }
 
 table {
-  color: cadetblue;
+  color: rgb(4, 46, 161);
   border-radius: 3px;
   overflow: hidden;
   margin: 1em 0;

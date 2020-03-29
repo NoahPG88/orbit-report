@@ -1,7 +1,5 @@
-<!--
-import { Component } from '@angular/core';
-import { Satellite } from './satellite';
--->
+
+
 <h3>Orbit Report</h3>
 <table>
     <tr class = "header-row">
@@ -11,7 +9,12 @@ import { Satellite } from './satellite';
         <th>Orbit Type</th>
         <th>Launch Date</th>
     </tr>
-       <!-- TODO: put <tr *ngFor=""></tr> here -->
-       <!--tr *ngFor="let sattelite of sourceList"></tr>{{sattelite}}</tr-->
-
+       <!-- TODO: put <tr *ngFor=""></tr> here *ngFor="let satellites of sourceList"  *ngFor="let satellites of sourceList"-->
+       <tr *ngFor="let satellite of satellites">
+           <td>{{ satellite.name }}</td>
+           <td>{{ satellite.type }}</td>
+           <td>{{ satellite.operational }}</td>
+           <td>{{ satellite.orbitType }}</td>
+           <td>{{ satellite.launchDate }}</td>
+       </tr>
 </table>
