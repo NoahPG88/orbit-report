@@ -12,7 +12,7 @@
        <!-- TODO: put <tr *ngFor=""></tr> here *ngFor="let satellites of sourceList"  *ngFor="let satellites of sourceList"-->
        <tr *ngFor="let satellite of satellites">
            <td>{{ satellite.name }}</td>
-           <td>{{ satellite.type }}</td>
+           <td [class.warning]="warningSwitch"> {{ satellite.type }}</td>
            <td>{{ satellite.operational }}</td>
            <td>{{ satellite.orbitType }}</td>
            <td>{{ satellite.launchDate }}</td>

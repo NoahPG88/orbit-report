@@ -16,9 +16,8 @@ export class AppComponent {
  
     window.fetch(satellitesUrl).then(function(response) {
        response.json().then(function(data) {
- 
+        console.log(data.satellites)
           let fetchedSatellites = data.satellites;
-          console.log(data.satellites)
             fetchedSatellites.forEach(satelliteObj => {
               new Satellite(this.name, this.type, this.launchDate, this.orbitType, this.operational);
               this.sourceList.push(satelliteObj);
