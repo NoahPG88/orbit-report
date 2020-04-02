@@ -1,0 +1,47 @@
+[33mcommit b5de7b528b19d79dc484e898d1e98f3d34bb7ef9[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: NoahPG88 <57874889+NoahPG88@users.noreply.github.com>
+Date:   Thu Apr 2 00:10:07 2020 -0500
+
+    working on 8.10.  SOme question if earlier steps in 8 were completed correctly
+
+[33mcommit 0b9d02b957635028d22d55f42e220daf39eebbf6[m
+Author: NoahPG88 <57874889+NoahPG88@users.noreply.github.com>
+Date:   Tue Mar 31 12:26:41 2020 -0500
+
+    still working on shouldShowWarning, ugh
+
+[33mcommit b4aec3b8466edd5f55aab70888964e13caa3d812[m
+Author: NoahPG88 <57874889+NoahPG88@users.noreply.github.com>
+Date:   Sun Mar 29 19:12:29 2020 -0500
+
+    started work on shouldshowWarning - need to learn before it can be executed properly with css and formatted in class
+
+[33mcommit 419949c8abbe59899a98b157703a8f066e8b7dae[m
+Author: NoahPG88 <57874889+NoahPG88@users.noreply.github.com>
+Date:   Sun Mar 29 18:16:15 2020 -0500
+
+    4) Display table of satellites, worked out ngFor stuff, 5) fetch satellite Data w/.json & .bind
+
+[33mcommit 3f5520e8486c805a367394fd3fefd2ab3432d2d2[m
+Author: NoahPG88 <57874889+NoahPG88@users.noreply.github.com>
+Date:   Fri Mar 27 17:05:52 2020 -0500
+
+    4) did all styling, still need to get *ngFor running in orbit-list.component.html
+
+[33mcommit 5c75da1ef647dbb50aa62028a3beeb92fc924972[m
+Author: NoahPG88 <57874889+NoahPG88@users.noreply.github.com>
+Date:   Thu Mar 26 20:26:43 2020 -0500
+
+    2) & 3)Create & Pass in Satellites to Orbit List Component
+
+[33mcommit a956651ca426a799d4f79ccbe2dd992d1231882c[m
+Author: NoahPG88 <57874889+NoahPG88@users.noreply.github.com>
+Date:   Thu Mar 26 20:11:51 2020 -0500
+
+    completed 1) Define and Create Satellites
+
+[33mcommit 7f06f06f2eb91be17d05a1cfc752a9ed1dd2243a[m
+Author: NoahPG88 <57874889+NoahPG88@users.noreply.github.com>
+Date:   Thu Mar 26 19:57:52 2020 -0500
+
+    initial commit
