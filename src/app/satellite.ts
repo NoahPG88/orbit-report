@@ -1,10 +1,12 @@
+//import { findLast } from '@angular/compiler/src/directive_resolver';
+
 export class Satellite {
     name: string;
     orbitType: string;
     type: string;
     operational: boolean;
     launchDate: string;
-    warningSwitch: boolean = true;
+    //showWarning: boolean = true;
 
     constructor(name: string, type: string, launchDate: string, orbitType: string, operational: boolean){
         this.name = name;
@@ -12,14 +14,10 @@ export class Satellite {
         this.launchDate = launchDate;
         this.orbitType = orbitType;
         this.operational = operational;
+        //console.log(this.showWarning); //test shows true
     }
 
-    shouldShowWarning(){
-        // if(this.type.toLowerCase() === 'space debris'){
-        //     console.log('in');
-        //     return true;
-        // }
-        this.warningSwitch = true;
-        console.log("this thing on?")
-    }
+    shouldShowWarning(): boolean {
+        return this.type.toLowerCase() === 'space debris';
+      }
 }
