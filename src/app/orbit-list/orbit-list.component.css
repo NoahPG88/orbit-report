@@ -26,3 +26,8 @@ th, td {
     margin: 5px 10px;
     padding: 6px;
 }
+
+.zebraTable tr:nth-child(even){
+    background: rgb(138, 205, 207);
+}
+
